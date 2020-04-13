@@ -7,17 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3013662A2443DABC00E2C495 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301366292443DABC00E2C495 /* Account.swift */; };
 		301972B9243E2456000C00FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301972B8243E2456000C00FE /* AppDelegate.swift */; };
 		301972BB243E2456000C00FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301972BA243E2456000C00FE /* SceneDelegate.swift */; };
 		301972BD243E2456000C00FE /* CreateUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301972BC243E2456000C00FE /* CreateUserViewController.swift */; };
 		301972C0243E2456000C00FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 301972BE243E2456000C00FE /* Main.storyboard */; };
 		301972C2243E2458000C00FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 301972C1243E2458000C00FE /* Assets.xcassets */; };
 		301972C5243E2458000C00FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 301972C3243E2458000C00FE /* LaunchScreen.storyboard */; };
+		30720F6B24449D3200F2D789 /* AllUsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30720F6A24449D3200F2D789 /* AllUsersViewController.swift */; };
+		3093E57A2443E75800F49533 /* UIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3093E5792443E75800F49533 /* UIExtensions.swift */; };
 		30F7686D243E558B0050DF2A /* FinanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F7686C243E558B0050DF2A /* FinanceViewController.swift */; };
 		30F7686F243E55A80050DF2A /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F7686E243E55A80050DF2A /* UserInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		301366292443DABC00E2C495 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 		301972B5243E2456000C00FE /* Pursuit-Core-iOS-KVO-Lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pursuit-Core-iOS-KVO-Lab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		301972B8243E2456000C00FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		301972BA243E2456000C00FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +30,8 @@
 		301972C1243E2458000C00FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		301972C4243E2458000C00FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		301972C6243E2458000C00FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30720F6A24449D3200F2D789 /* AllUsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllUsersViewController.swift; sourceTree = "<group>"; };
+		3093E5792443E75800F49533 /* UIExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtensions.swift; sourceTree = "<group>"; };
 		30F7686C243E558B0050DF2A /* FinanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceViewController.swift; sourceTree = "<group>"; };
 		30F7686E243E55A80050DF2A /* UserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -41,6 +47,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		301366272443DA9600E2C495 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				301972BC243E2456000C00FE /* CreateUserViewController.swift */,
+				30720F6A24449D3200F2D789 /* AllUsersViewController.swift */,
+				30F7686C243E558B0050DF2A /* FinanceViewController.swift */,
+				30F7686E243E55A80050DF2A /* UserInfoViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		301366282443DAA500E2C495 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				301972BE243E2456000C00FE /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3013662B2443DAC300E2C495 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				301366292443DABC00E2C495 /* Account.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		301972AC243E2456000C00FE = {
 			isa = PBXGroup;
 			children = (
@@ -62,10 +95,10 @@
 			children = (
 				301972B8243E2456000C00FE /* AppDelegate.swift */,
 				301972BA243E2456000C00FE /* SceneDelegate.swift */,
-				301972BC243E2456000C00FE /* CreateUserViewController.swift */,
-				30F7686C243E558B0050DF2A /* FinanceViewController.swift */,
-				30F7686E243E55A80050DF2A /* UserInfoViewController.swift */,
-				301972BE243E2456000C00FE /* Main.storyboard */,
+				3093E5792443E75800F49533 /* UIExtensions.swift */,
+				3013662B2443DAC300E2C495 /* Model */,
+				301366282443DAA500E2C495 /* Views */,
+				301366272443DA9600E2C495 /* Controllers */,
 				301972C1243E2458000C00FE /* Assets.xcassets */,
 				301972C3243E2458000C00FE /* LaunchScreen.storyboard */,
 				301972C6243E2458000C00FE /* Info.plist */,
@@ -145,10 +178,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				301972BD243E2456000C00FE /* CreateUserViewController.swift in Sources */,
+				30720F6B24449D3200F2D789 /* AllUsersViewController.swift in Sources */,
+				3093E57A2443E75800F49533 /* UIExtensions.swift in Sources */,
 				30F7686D243E558B0050DF2A /* FinanceViewController.swift in Sources */,
 				30F7686F243E55A80050DF2A /* UserInfoViewController.swift in Sources */,
 				301972B9243E2456000C00FE /* AppDelegate.swift in Sources */,
 				301972BB243E2456000C00FE /* SceneDelegate.swift in Sources */,
+				3013662A2443DABC00E2C495 /* Account.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
