@@ -10,7 +10,6 @@ import UIKit
 
 class AllUsersViewController: UIViewController {
 
-    var test = "test"
     override func viewDidLoad() {
         super.viewDidLoad()
 
